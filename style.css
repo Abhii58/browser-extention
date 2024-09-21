@@ -1,0 +1,82 @@
+#popup {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #007BFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+    margin-left: 5px;
+    color: #555;
+    font-size: 14px;
+}
+
+#save-settings {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Add some spacing between elements */
+#popup div {
+    margin-bottom: 10px;
+}
+
+/* Centered content */
+#popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

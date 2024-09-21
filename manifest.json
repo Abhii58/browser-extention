@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Customizable Video Speed Booster",
+  "version": "1.0",
+  "description": "Customizes video playback speed with a single click and remembers settings based on the website or content type.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+         "16": "icons/icon16.png",
+      
+     "48": "icons/icon48.png"
+     
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
